@@ -1,6 +1,16 @@
 
                 ChangeLog file for zlib
 
+Changes in 1.2.8.1.pl1 (30 Oct 2016)
+- Increase cmake required version because of the use of rename (https://github.com/madler/zlib/pull/43)
+- Fix typo (https://github.com/madler/zlib/pull/47)
+- Fix ZTELL64 (https://github.com/madler/zlib/pull/48)
+- Newer WinCE has errno now (https://github.com/madler/zlib/pull/52)
+- Fix output names of libraries in windows (https://github.com/madler/zlib/pull/66)
+- Fix cmake build for msvc with amd64 (https://github.com/madler/zlib/pull/72)
+- snprintf in MSVC2015 (https://github.com/madler/zlib/pull/114)
+- add zlib_tests option in cmake (https://github.com/madler/zlib/pull/139)
+
 Changes in 1.2.8.1 (xx May 2013)
 - 
 
